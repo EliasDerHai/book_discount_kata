@@ -1,4 +1,5 @@
 /build/
+/out/
 .idea
 .gradle
 *.DS_Store
@@ -6,3 +7,8 @@
 *.jar
 *.war
 *.ear
+# gradle
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+.gradletasknamecache
