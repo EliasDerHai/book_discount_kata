@@ -1,5 +1,4 @@
-[versions]
-junit-jupiter = "5.11.3"
-
 [libraries]
-junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version = "5.11.3" }
+vavr = { module = "io.vavr:vavr", version = "0.10.6" }
+lombok = { module = "org.projectlombok:lombok", version = "1.18.36" }

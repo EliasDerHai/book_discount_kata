@@ -7,9 +7,16 @@ repositories {
 }
 
 dependencies {
+    // lombok
+    compileOnly(libs.lombok)
+    annotationProcessor(libs.lombok)
+    testCompileOnly(libs.lombok)
+    testAnnotationProcessor(libs.lombok)
+    // junit
     testImplementation(libs.junit.jupiter)
-
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    // vavr
+    implementation(libs.vavr)
 }
 
 java {
