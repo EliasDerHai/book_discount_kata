@@ -1,8 +1,17 @@
 ## Book Discount Kata
 
 ## Run
-To run all tests:
-`./gradlew test -DperformanceTests=true`
+To run all tests - win:
+```
+set performanceTests=true
+./gradlew test 
+```
+
+To run all tests - unix:
+```
+export performanceTests=true
+./gradlew test 
+```
 
 To run unit-tests only:
 `./gradlew test`
